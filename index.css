@@ -1,9 +1,51 @@
-html{
-    background-color: #F15A29;
-}
+
 .top{
     margin-top: 70px;
     text-align: center;
+    background-color: #F15A29;
     color: white;
+    font-size:x-large;
+    background-image: url(images/backgrounds/landing.jpg);
+    background-size: cover;
+    position: relative;
+    bottom: -50px;
+    top: -70px;
+    
+}
+#top-meals{
+    position: relative;
+    
+
+}
+.breakfast{
+    color: white;
+    font-size: small;
+    /* background-image: url(images/foodtop/breakfast.jpg); */
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size:contain;
+
+}
+.lunch{
+    color: white;
+    font-size: small;
+    /* background-image: url(images/foodtop/lunch.jpg); */
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size:contain;
+
+}
+.dinner{
+    color: white;
+    font-size: small;
+    /* background-image: url(images/foodtop/dinner.jpg); */
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+main{
+    background-color: white;
+}
+#first-p{
     font-size:x-large;
 }
