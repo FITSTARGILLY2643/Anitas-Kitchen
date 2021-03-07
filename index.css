@@ -1,9 +1,6 @@
 html {
-    width: 75.6%;
-
+    width: 80.6%;
 }
-
-
 
 .container {
     display: inline-block;
@@ -40,9 +37,7 @@ html {
     left: 50px;
     color: white;
     font-size: large;
-
 }
-
 
 .top {
     margin-top: 70px;
@@ -55,7 +50,6 @@ html {
     position: relative;
     bottom: -50px;
     top: -70px;
-
 }
 
 #top-meals {
@@ -64,8 +58,6 @@ html {
     justify-content: baseline;
     position: relative;
     right: 80px;
-
-
 }
 
 .breakfast {
@@ -78,7 +70,6 @@ html {
     /* text-align: center; */
     background-repeat: no-repeat;
     background-size: contain;
-
 }
 
 .lunch {
@@ -91,11 +82,7 @@ html {
     text-align: center;
     background-repeat: no-repeat;
     background-size: contain;
-    
-
-
-
-
+}
 
 .dinner {
     color: white;
@@ -111,9 +98,6 @@ html {
 
 .happy-party {
     font-size: medium;
-
-
-
 }
 
 .top-meals {
@@ -122,9 +106,6 @@ html {
     top: 50px;
     flex-direction: row;
     justify-content: baseline;
-
-
-
 }
 
 .meals {
@@ -132,10 +113,6 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
-
-
-
-
 }
 
 .happy-hour {
@@ -145,7 +122,6 @@ html {
     background-color: gainsboro;
     box-sizing: border-box;
     padding-top: 20px;
-
 }
 
 .party-time {
@@ -155,11 +131,7 @@ html {
     background-color: #F15A29;
     box-sizing: border-box;
     padding-top: 20px;
-
-
-
 }
-
 
 main {
     background-color: white;
@@ -176,8 +148,6 @@ main {
     margin-top: 20px;
     border: 0.5px solid darkgray;
     padding: 10px;
-
-
 }
 
 .food-images {
@@ -187,7 +157,6 @@ main {
     margin-top: 20px;
     border: 0.5px solid darkgray;
     padding: 10px;
-
 }
 
 .real-food {
@@ -198,8 +167,6 @@ main {
     flex-direction: row;
     justify-content: right;
     margin-bottom: 30px;
-
-
 }
 
 .real-food-words {
@@ -217,47 +184,47 @@ main {
     left: 110px;
     text-align: right;
     margin-right: 20px;
-
 }
 
 .drinks-words {
     height: 130px;
     width: 350px;
     padding-right: 30px;
-
 }
 
-#foodsBg > div ul> li{
+#foodsBg>div ul>li {
     color: black;
     line-height: 20px;
 }
-#foodsBg >div {
-width: 90%;
-background-color: white;
-margin: 5%;
-height:90%;
-margin-bottom: 5%;
+
+#foodsBg>div {
+    width: 90%;
+    background-color: white;
+    margin: 5%;
+    height: 90%;
+    margin-bottom: 5%;
 }
-#submenu{
+
+#submenu {
     display: flex;
     list-style: none;
-    width:100%;
+    width: 100%;
     justify-content: space-around;
 }
 
-#fastfoodpics > ul li{
+#fastfoodpics>ul li {
     display: flex;
-    list-style:none;
+    list-style: none;
     width: 20%;
 }
 
-.fastFoodli{
+.fastFoodli {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
- }
+}
 
-#foodsBg{
+#foodsBg {
     background-image: url(./images/backgrounds/foodsBg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -272,17 +239,15 @@ margin-bottom: 5%;
     flex-direction: column;
 }
 
-#submenu{
+#submenu {
     display: flex;
     list-style: none;
-    width:100%;
+    width: 100%;
     justify-content: space-around;
 }
 
-
 #second-food {
     font-size: x-large;
-
 }
 
 .our-happy {
@@ -291,15 +256,12 @@ margin-bottom: 5%;
 
 .about {
     color: #F15A29;
-
 }
 
 .about-statements {
     display: flex;
     float: right;
-
 }
-
 
 .bottom {
     background-color: #F15A29;
@@ -316,7 +278,6 @@ margin-bottom: 5%;
 .move-down {
     position: relative;
     top: 60px;
-
 }
 
 input[type=text] {
@@ -339,7 +300,6 @@ input[type=submit] {
 .what-we-are {
     color: white;
     text-align: center;
-
 }
 
 .menu {
@@ -354,7 +314,6 @@ input[type=submit] {
     position: relative;
     top: 30px;
     height: 200px;
-
 }
 
 .customers-about {
@@ -384,17 +343,16 @@ input[type=submit] {
     width: 310px;
 }
 
-    .button {
-        background-color: white;
-         border: 1px solid orangered;
-        color: orangered;
-         padding: 10px 25px;
-         text-align: center;
-        text-decoration: none;
-         display: inline-block;
-         font-size: 10px;
-         margin: 4px 4px;
-         cursor: pointer;
-         border-radius: 4px;
-       }
-
+.button {
+    background-color: white;
+    border: 1px solid orangered;
+    color: orangered;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
