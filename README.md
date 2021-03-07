@@ -2,7 +2,6 @@
 ## Author
 Gilbert Kiprotich Mutai
 ## Description
-It's a website that describes more about a Restaurant called Anitas Kitchen.
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
