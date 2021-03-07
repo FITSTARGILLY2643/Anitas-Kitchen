@@ -226,41 +226,57 @@ main {
 
 }
 
-.middle-menu {
-    background-image: url(images/backgrounds/foodsBg.jpg);
-    height: 400px;
-    width: 100%;
+#foodsBg > div ul> li{
+    color: black;
+    line-height: 20px;
 }
-
-.inside-menu {
-    background-color: white;
-    align-items: center;
-    height: 300px;
-    width: 400px;
-    /* display: flex; */
-    /* flex-direction: row; */
-    display: relative;
-    /* float: right;
-    clear: both; */
-    left: 100px;
-    justify-content:space-between;
+#foodsBg >div {
+width: 90%;
+background-color: white;
+margin: 5%;
+height:90%;
+margin-bottom: 5%;
 }
-.menu-images{
-/* 
-    height: 300px;
-    width: 400px; */
+#submenu{
     display: flex;
-    flex-direction: row;
-    display: relative;
-    /* float: right;
-    clear: both; */
-    left: 100px;
-    align-items: center;
-    /* float:right; */
-    justify-content:space-between; 
+    list-style: none;
+    width:100%;
+    justify-content: space-around;
 }
 
+#fastfoodpics > ul li{
+    display: flex;
+    list-style:none;
+    width: 20%;
+}
 
+.fastFoodli{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+ }
+
+#foodsBg{
+    background-image: url(./images/backgrounds/foodsBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    color: white;
+    box-sizing: border;
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#submenu{
+    display: flex;
+    list-style: none;
+    width:100%;
+    justify-content: space-around;
+}
 
 
 #second-food {
@@ -386,34 +402,3 @@ input[type=submit] {
          border-radius: 4px;
        }
 
-       /* <div class="slideshow-container"> */
-
-/* <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="img_nature_wide.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="img_snow_wide.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="img_mountains_wide.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div> */
